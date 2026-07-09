@@ -90,10 +90,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       {
         property: "og:description",
         content:
-          "One integrated AI platform for drafting emails, summarizing meetings, planning tasks and researching topics.",
+          "Aria is an AI workplace productivity assistant that drafts emails, summarizes meetings, plans tasks, and researches topics — all in one place.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Aria — AI Workplace Productivity Assistant" },
+      { name: "twitter:description", content: "Aria is an AI workplace productivity assistant that drafts emails, summarizes meetings, plans tasks, and researches topics — all in one place." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/507d5200-9745-4e16-ab95-e2943f19a505/id-preview-728ec7cd--ce8c2107-e8ca-44cc-a4db-ed0392c196f4.lovable.app-1783510430093.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/507d5200-9745-4e16-ab95-e2943f19a505/id-preview-728ec7cd--ce8c2107-e8ca-44cc-a4db-ed0392c196f4.lovable.app-1783510430093.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
